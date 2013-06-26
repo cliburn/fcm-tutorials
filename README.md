@@ -1,7 +1,7 @@
 FCM Tutorials
 =========
 
-This Is a collection of tutorial on how to use python for automated cytometry analysis. Most of the tutorials make extensive use of the **fcm** package, and it is assumed that the reader is familiar with standard scientific Python modules such as **numpy**, **scipy**, **matplotlib**, **pandas** etc. The tutorials are written in **pweave** markdown and converted to Sphinx format for HTML and PDF generation.
+This Is a collection of tutorial on how to use python for automated cytometry analysis. Most of the tutorials make extensive use of the ``fcm`` package, and it is assumed that the reader is familiar with standard scientific Python modules such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas`` etc. The tutorials are currently written in ``pweave`` REST format and converted HTML via ``pandoc``..
 
 Tutorial topics
 ------------
