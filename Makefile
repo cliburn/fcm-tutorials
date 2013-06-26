@@ -2,7 +2,7 @@ LP=Pweave
 CC=pandoc
 LPFLAGS=-f pandoc
 CCFLAGS=-o
-SOURCES=overview.Pnw
+SOURCES=$(wildcard *.Pnw)
 OBJECTS=$(SOURCES:.Pnw=.md)
 TARGETS=$(addprefix html/,$(OBJECTS:.md=.html))
 
