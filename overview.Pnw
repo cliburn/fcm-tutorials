@@ -1,11 +1,27 @@
 Overview
 ========
 
-Begin test
+Begin loop test
 
-<< label="test" >>=
+<< name="test" >>=
+
 for i in range(3):
 	print "hello %d" % (i+1)
+
 @
 
-End test
+End loop test
+
+Begin figure test
+
+<< name="figure", fig=True >>=
+
+import numpy as np
+import pylab
+
+xs = np.random.random((100,2))
+pylab.scatter(xs[:,0], xs[:,1])
+
+@
+
+End figure test

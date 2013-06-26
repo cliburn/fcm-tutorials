@@ -4,7 +4,7 @@ LPFLAGS=-f pandoc
 CCFLAGS=-o
 SOURCES=$(wildcard *.Pnw)
 OBJECTS=$(SOURCES:.Pnw=.md)
-TARGETS=$(addprefix html/,$(OBJECTS:.md=.html))
+TARGETS=$(OBJECTS:.md=.html)
 
 all: $(TARGETS)
 
@@ -15,4 +15,4 @@ $(OBJECTS): $(SOURCES)
 	$(LP) $(LPFLAGS) $(SOURCES)
 
 clean:
-	rm -f $(OBJECTS) $(TARGETS) cache/*
+	rm -f $(OBJECTS) $(TARGETS) cache/* figures/*
