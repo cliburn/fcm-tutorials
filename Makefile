@@ -27,4 +27,4 @@ $(TARGETS): $(SOURCES)
 	$(CC) $(CCFLAGS) $(SOURCES)
 
 clean:
-	rm -f $(OBJECTS) $(TARGETS) cache/* figures/*
+	rm -f $(OBJECTS) $(TARGETS) cache/*

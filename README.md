@@ -66,6 +66,7 @@ Running this code gives the following graphic
 ![](figures/scatter01.png)
 
 
+
  2. Managing cytometry data
  3. Pre-processing data
  4. Exploratory data analysis
